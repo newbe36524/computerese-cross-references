@@ -1,2 +1,6 @@
 .idea
 .DS_Store
+dist
+node_modules
+*.tsbuildinfo
+pkg

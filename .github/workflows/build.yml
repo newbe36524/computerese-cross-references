@@ -1,0 +1,80 @@
+# Build Artifacts and Release Automation
+#
+# This workflow builds and uploads conversion artifacts for:
+# - Pull Requests: artifacts available for review
+# - master branch: artifacts archived for traceability
+# - Releases: assets attached to the release
+
+name: Build
+
+on:
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - master
+  release:
+    types:
+      - published
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build and Upload Artifacts
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Chinese fonts for PDF generation
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-wqy-microhei fonts-wqy-zenhei fonts-noto-cjk
+
+      - name: Build project
+        run: npm run build
+
+      - name: Convert all formats
+        run: npm run convert:all
+
+      - name: Upload PR artifacts
+        uses: actions/upload-artifact@v4
+        if: github.event_name == 'pull_request'
+        with:
+          name: build-artifacts-${{ github.sha }}
+          path: pkg/
+          retention-days: 7
+
+      - name: Upload branch artifacts
+        uses: actions/upload-artifact@v4
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        with:
+          name: build-artifacts-${{ github.sha }}
+          path: pkg/
+          retention-days: 30
+
+      - name: Attach release assets
+        uses: softprops/action-gh-release@v1
+        if: github.event_name == 'release'
+        with:
+          files: |
+            pkg/terms.md
+            pkg/terms.html
+            pkg/terms.docx
+            pkg/terms.csv
+            pkg/terms.pdf
+          fail_on_unmatched_files: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,31 @@
+# 计算机专业术语对照
+
+{{#if footnotes}}
+**目录**
+
+{{#each terms}}
+[{{@key}}](#{{@key}}){{#unless @last}} | {{/unless}}
+{{/each}}
+
+{{/if}}
+---
+
+{{#each terms}}
+## {{@key}}
+
+| English | Chinese |
+|---------|---------|
+{{#each this}}
+| {{word}} | {{meaning}}{{#if footnotes}}^{[{{footnotes}}]}{{/if}} |
+{{/each}}
+
+{{/each}}
+---
+
+{{#if footnotes}}
+## 脚注
+
+{{#each footnotes}}
+[{{@key}}] {{this}}
+{{/each}}
+{{/if}}

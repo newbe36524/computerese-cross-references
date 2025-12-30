@@ -1,0 +1,48 @@
+{
+  "name": "computerese-cross-references",
+  "version": "1.0.0",
+  "description": "Computer terminology cross-reference data in multiple formats",
+  "type": "module",
+  "main": "dist/cli.js",
+  "bin": {
+    "computerese": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc && cp -r src/templates dist/templates",
+    "convert": "node dist/cli.js convert",
+    "convert:all": "node dist/cli.js convert -f all",
+    "convert:csv": "node dist/cli.js convert -f csv",
+    "convert:markdown": "node dist/cli.js convert -f markdown",
+    "convert:html": "node dist/cli.js convert -f html",
+    "convert:docx": "node dist/cli.js convert -f docx",
+    "convert:pdf": "node dist/cli.js convert -f pdf",
+    "parse:readme": "node dist/cli.js parse-readme",
+    "validate:data-yaml": "node dist/cli.js validate-data-yaml",
+    "validate:conversions": "node dist/cli.js validate-conversions",
+    "validate": "npm run validate:data-yaml && npm run validate:conversions",
+    "dev": "tsc --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "terminology",
+    "computer-science",
+    "cross-reference",
+    "converter"
+  ],
+  "author": "",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "docx": "^8.5.0",
+    "handlebars": "^4.7.8",
+    "puppeteer": "^22.0.0",
+    "yaml": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

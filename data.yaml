@@ -1,0 +1,2295 @@
+# 计算机专业术语对照数据
+#
+# 数据结构:
+#   terms:
+#     [A-Z]:                        # 按字母分组的术语列表
+#       - word: string              # 英文术语
+#         meaning: string           # 中文释义
+#         footnotes: [number]       # 脚注引用编号列表（可选）
+#   footnotes:
+#     [1-6]: string                 # 脚注定义内容
+#
+# 说明:
+#   - 术语按字母 A-Z 分组存储
+#   - footnotes 字段仅当术语有脚注引用时存在
+#   - 脚注编号 1-6 对应文档末尾的脚注定义
+
+terms:
+  A:
+    - word: Abstract Factory
+      meaning: 抽象工厂
+    - word: Abstract Factory Pattern
+      meaning: 抽象工厂模式
+    - word: abstraction layer
+      meaning: 抽象层
+    - word: access
+      meaning: 获取，存取
+    - word: access modifier
+      meaning: 访问修饰符
+    - word: acoustic coupler
+      meaning: 声音耦合器
+    - word: Active Directory
+      meaning: 活动目录
+    - word: Acyclic Dependencies Principle
+      meaning: 非循环依赖原则（ADP）
+    - word: acyclic digraph
+      meaning: 有向无环图
+    - word: Adapter
+      meaning: 适配器
+    - word: Adapter Pattern
+      meaning: 适配器模式
+    - word: Adaptive Code
+      meaning: 自适应代码
+    - word: Add Parameter
+      meaning: 添加参数
+    - word: ADSL
+      meaning: Asymmetrical Dingital Subscriber Loop，非对称数字用户环线
+    - word: affinity
+      meaning: 绑定
+    - word: affinity group
+      meaning: 地缘组
+    - word: agent
+      meaning: 代理
+    - word: agent-based interface
+      meaning: 代理人界面
+    - word: Aggregate
+      meaning: 聚合
+    - word: Aggregate Root
+      meaning: 聚合根
+    - word: Agile
+      meaning: 敏捷方法论
+    - word: agile practice
+      meaning: 敏捷实践
+    - word: agile process
+      meaning: 敏捷流程
+    - word: agility
+      meaning: 敏捷性
+    - word: AI
+      meaning: Artificial Intelligence，人工智能
+    - word: air waves
+      meaning: 无线电波
+    - word: algorithm
+      meaning: 算法
+    - word: Algorithm-of-Thought
+      meaning: 思维算法（AoT）
+      footnotes: [6]
+    - word: analog
+      meaning: 模拟的
+    - word: animation
+      meaning: 动画
+    - word: annotation
+      meaning: 注解，注释
+    - word: answering machine
+      meaning: 电话应答机
+    - word: antenna
+      meaning: 天线
+    - word: anti-pattern
+      meaning: 反模式
+    - word: AoT
+      meaning: 思维算法（Algorithm-of-Thought）
+      footnotes: [6]
+    - word: APM
+      meaning: 异步编程模型（Asynchronous Programming Model）
+    - word: Apocalyptic defect
+      meaning: 灾难缺陷
+    - word: application
+      meaning: 应用，应用程序，应用软件
+    - word: application life cycle
+      meaning: 应用程序生命周期
+    - word: application pool
+      meaning: 应用程序池
+    - word: Application Programming Interface
+      meaning: 应用程序编程接口（API），目的是提供应用程序与开发人员基于某软件或硬件得以访问一组例程的能力，而又无需访问源码，或理解内部工作机制的细节。
+    - word: Application Service
+      meaning: 应用服务
+    - word: arbitrary error
+      meaning: 任意错误
+    - word: architecture
+      meaning: 体系机构，结构
+    - word: architecture decay
+      meaning: 架构腐坏
+    - word: Architecture Style
+      meaning: 架构风格
+    - word: ARPA
+      meaning: Advanced Research Projects Agency，（美国国防部）高级研究计划署
+    - word: ARPAnet
+      meaning: ARPA 网
+    - word: Arrange-Act-Assert
+      meaning: 准备-执行-断言（AAA）
+    - word: artifact
+      meaning: 构建物
+      footnotes: [4]
+    - word: ASF
+      meaning: Apache Software Foundation 的简写
+    - word: Aspect-Oriented Programming
+      meaning: 面向切面编程（AOP）
+    - word: aspect ratio
+      meaning: 屏幕高宽比
+    - word: assembly
+      meaning: 程序集
+    - word: associative array
+      meaning: 关联数组
+    - word: Asynchronous Programming Model
+      meaning: 异步编程模型（APM）
+    - word: ATM
+      meaning: asynchronous transfer mode，异步传输模式
+    - word: atomic operation
+      meaning: 原子操作
+    - word: atomic transaction
+      meaning: 原子事务
+    - word: atomicity
+      meaning: 原子性
+    - word: attribute
+      meaning: '特性（C#）、属性（Java 等）'
+    - word: augmented reality
+      meaning: 增强实现（AR）
+    - word: authentication
+      meaning: 身份验证
+    - word: authorization
+      meaning: 授权
+    - word: auto-generated properties
+      meaning: 自动生成的属性
+    - word: automated unit testing
+      meaning: 自动化单元测试
+    - word: automation
+      meaning: 自动化
+    - word: autonomous
+      meaning: 独立性
+    - word: auxiliary database
+      meaning: 辅助数据库
+    - word: availability
+      meaning: 可用性
+    - word: availability set
+      meaning: 可用性集
+    - word: AZs
+      meaning: 可用性区域（Availability Zones，亚马逊 AWS 中数据中心的叫法）
+      footnotes: [4]
+  B:
+    - word: BaaS
+      meaning: Battery as a Service，电池即服务（电池租用商业模式）
+    - word: Backend as a Service
+      meaning: 后端即服务（BaaS）
+    - word: backpane
+      meaning: 底板
+    - word: backward compatibility
+      meaning: 向后兼容性
+    - word: bandwidth
+      meaning: 带宽
+    - word: bar code
+      meaning: 条形码
+    - word: Base Class Library
+      meaning: 基类库（BCL）
+    - word: baseline
+      meaning: 准线
+    - word: baud
+      meaning: 波特
+    - word: BCL
+      meaning: 基类库（Base Class Library）
+    - word: bear
+      meaning: 熊
+    - word: behavior
+      meaning: 行为
+    - word: behavior preserving program transformations
+      meaning: 行为保留式程序转换
+      footnotes: [1]
+    - word: Behavioral Design Patterns
+      meaning: 行为性设计模式
+    - word: Behavioral error
+      meaning: 行为错误
+    - word: BERT
+      meaning: Bidirectional Encoder Representations from Transformers，谷歌公司的 LLM，对 NLP 研究产生了重大影响。该模型使用双向方法从一个词的左右两边捕捉上下文，使得各种任务的性能提高，如情感分析和命名实体识别。
+    - word: BFF
+      meaning: 为前端服务的后端（Backends For Frontends）
+      footnotes: [4]
+    - word: BFS
+      meaning: 广度优先搜索
+    - word: Big Ball of Mud
+      meaning: 大泥球（BBM）
+    - word: big data
+      meaning: 大数据
+    - word: Big Design Up Front
+      meaning: 大优先设计（BDUF）
+    - word: binary
+      meaning: 二进制的
+    - word: binochlar
+      meaning: 双目并用的
+    - word: bit
+      meaning: 比特
+    - word: Bit-field
+      meaning: 位域
+    - word: bitnik
+      meaning: 比特族
+    - word: blob
+      meaning: BLOB
+    - word: block
+      meaning: 阻断
+    - word: block blob
+      meaning: 块 BLOB
+    - word: Blockchain as a Service
+      meaning: 区块链即服务（BaaS）
+    - word: bottleneck
+      meaning: 瓶颈
+    - word: bounded context
+      meaning: 边界上下文、界限上下文
+      footnotes: [4]
+    - word: box
+      meaning: 装箱
+    - word: bps
+      meaning: bits per second，比特/秒
+    - word: Brainstorming
+      meaning: 头脑风暴（脑暴）
+    - word: BRD
+      meaning: 商业需求文档（Business Requirements Document）
+    - word: breakpoint
+      meaning: 断点
+    - word: Bridge
+      meaning: 桥接
+    - word: Bridge Pattern
+      meaning: 桥接模式
+    - word: broadcast
+      meaning: （无线电或电视）广播
+    - word: Broken Hierarchy
+      meaning: 支离破碎的层次结构
+      footnotes: [2]
+    - word: Broken Modularization
+      meaning: 拆散的模块化
+      footnotes: [2]
+    - word: brownfield project
+      meaning: 行进中项目
+    - word: Browser Object Model
+      meaning: 浏览器对象模型（BOM）
+    - word: browser-server
+      meaning: 浏览器-服务器
+    - word: bug
+      meaning: 缺陷
+    - word: Builder Pattern
+      meaning: 建造者模式
+    - word: built-in
+      meaning: 内置的，内建的；嵌入的；内置
+    - word: bulkhead
+      meaning: 舱壁
+      footnotes: [4]
+    - word: business intelligence
+      meaning: 商业智能，将企业中现有的数据进行有效的整合，快速准确地提供报表并提出决策依据，帮助企业做出明智的业务经营决策。
+    - word: business layer
+      meaning: 业务层
+    - word: business logic layer
+      meaning: 业务逻辑层
+    - word: Business Requirements Document
+      meaning: 商业需求文档（BRD）
+    - word: busy (status)
+      meaning: 忙（状态）；繁忙（状态）
+    - word: byte
+      meaning: 字节
+  C:
+    - word: cable
+      meaning: 电缆
+    - word: Cache/Caching
+      meaning: 缓存
+    - word: call stack
+      meaning: 调用堆栈
+    - word: callout box
+      meaning: 标注框
+    - word: camelCase
+      meaning: camel 大小写
+    - word: canary releasing
+      meaning: 金丝雀发布
+      footnotes: [4]
+    - word: carbon copy
+      meaning: 复写本，副本；抄送（CC）
+    - word: carriage return
+      meaning: 回车
+    - word: Cascading Style Sheets
+      meaning: 层叠样式表（CSS）
+    - word: catastrophic failover
+      meaning: 灾难性故障转移
+      footnotes: [4]
+    - word: CD
+      meaning: 持续交付（Continuous Delivery）
+      footnotes: [4]
+    - word: CDC
+      meaning: 消费者驱动的契约（Customer-Driven Contract）
+      footnotes: [4]
+    - word: CDN
+      meaning: 内容分发网络（Content Delivery Network）
+    - word: cell
+      meaning: 单元
+    - word: cellular telephone
+      meaning: 移动电话
+    - word: Central Processing Unit
+      meaning: 中央处理器（CPU）
+    - word: certificate
+      meaning: （数字）证书
+    - word: Certificate Authority
+      meaning: 证书认证机构
+    - word: Chain of Responsibility
+      meaning: 责任链
+    - word: Chain of Responsibility Pattern
+      meaning: 责任链模式
+    - word: Chain-of-Thought
+      meaning: 思维链（CoT）
+      footnotes: [6]
+    - word: Chain-of-Thought-Self-Consistency
+      meaning: 思维链自洽性
+      footnotes: [6]
+    - word: Change Bidirectional Association to Unidirectional
+      meaning: 将双向关联改为单向关联
+      footnotes: [1]
+    - word: Change Point
+      meaning: 修改点：需要往代码中引入修改的点
+    - word: Change Reference to Value
+      meaning: 将引用对象改为值对象
+      footnotes: [1]
+    - word: Change Unidirectional Association to Bidirectional
+      meaning: 将单向关联改为双向关联
+      footnotes: [1]
+    - word: Change Value to Reference
+      meaning: 将值对象改为引用对象
+      footnotes: [1]
+    - word: channel
+      meaning: 信道，频道
+    - word: character
+      meaning: 字符
+    - word: Characterization test
+      meaning: 特征测试：描述软件某部分的当前行为的测试，当你修改代码时能够用来保持行为
+    - word: check in
+      meaning: 签入
+    - word: check out
+      meaning: 签出
+    - word: checksum
+      meaning: 校验和
+    - word: chip
+      meaning: 芯片
+    - word: choreography
+      meaning: 协同
+    - word: CI
+      meaning: 持续集成（Continuous Integration）
+      footnotes: [4]
+    - word: cipher
+      meaning: 密码
+    - word: claim
+      meaning: 声明
+    - word: class definition
+      meaning: 类定义
+    - word: Clean Object-oriented and Layered Architecture
+      meaning: 整洁面向对象分层架构（COLA）
+    - word: CLI
+      meaning: 公共语言基础结构（Common Language Infrastructure）
+    - word: client-server
+      meaning: 客户端-服务器
+    - word: clone
+      meaning: 克隆，复制
+    - word: cloud computing
+      meaning: 云计算
+    - word: cloud service
+      meaning: 云服务
+    - word: CLR
+      meaning: 公共语言运行时（Common Language Runtime）
+    - word: CLS
+      meaning: 公共语言规范（Common Language Specification）
+    - word: cluster
+      meaning: 集群
+    - word: clustered index
+      meaning: 聚集索引
+    - word: co-occurring smells
+      meaning: 同时出现的坏味
+      footnotes: [2]
+    - word: CoAP
+      meaning: 受限应用协议
+    - word: coaxial cable
+      meaning: 同轴电缆
+    - word: COBIT
+      meaning: 信息和相关技术的控制目标，Control Objectives for Information and Related Technology
+      footnotes: [4]
+    - word: CoC
+      meaning: 更改开销（Cost of Change）
+    - word: code smell
+      meaning: 代码味道
+    - word: COLA
+      meaning: 整洁面向对象分层架构，Clean Object-oriented and Layered Architecture
+    - word: Collapse Hierarchy
+      meaning: 折叠继承关系
+      footnotes: [1]
+    - word: comcurrency
+      meaning: 并发
+    - word: command
+      meaning: 命令
+    - word: Command Pattern
+      meaning: 命令模式
+    - word: command prompt
+      meaning: 命令行提示
+    - word: Command/Query Responsibility Segregation
+      meaning: 命令/查询职责分离（CQRS）
+    - word: Command/Query Separation
+      meaning: 命令/查询分离（CQS）
+    - word: commingled bits
+      meaning: 混合的比特
+    - word: communication
+      meaning: 通信
+    - word: community
+      meaning: 社区
+    - word: committed
+      meaning: 已提交（的）
+    - word: Common Intermediate Language
+      meaning: 公共中间语言
+    - word: Common Language Infrastructure
+      meaning: 公共语言基础结构（CLI）
+    - word: Common Language Runtime
+      meaning: 公共语言运行时（CLR）
+    - word: Common Language Specification
+      meaning: 公共语言规范（CLS）
+    - word: Common Type System
+      meaning: 公共类型系统（CTS）
+    - word: common name
+      meaning: 通用名称
+    - word: compatibility
+      meaning: 兼容性
+    - word: Competing Consumer pattern
+      meaning: 消费者竞争模式
+      footnotes: [4]
+    - word: compile-time correctness checking
+      meaning: 编译时正确性检查
+    - word: Component Object Model
+      meaning: 组件对象模型（COM）
+    - word: Composability
+      meaning: 组合性
+    - word: composite formatting
+      meaning: 复合格式化
+    - word: Composite Pattern
+      meaning: 复合模式、组合模式
+    - word: concurrency conflicts
+      meaning: 并发冲突
+    - word: concurrency mode
+      meaning: 并发模式
+    - word: conditional compilation
+      meaning: 条件编译
+    - word: conditional compilation statement
+      meaning: 条件编译语句
+    - word: configuration
+      meaning: 配置，设置
+    - word: connection string
+      meaning: 连接字符串
+    - word: Consolidate Conditional Expression
+      meaning: 合并条件表达式
+      footnotes: [1]
+    - word: Consolidate Duplicate Conditional Fragments
+      meaning: 合并重复的条件片段
+      footnotes: [1]
+    - word: consistency
+      meaning: 一致性
+    - word: constructor
+      meaning: 构造函数
+    - word: container
+      meaning: 容器
+    - word: Container As A Service
+      meaning: 容器即服务（CaaS）
+      footnotes: [4]
+    - word: content
+      meaning: 内容
+    - word: context
+      meaning: 上下文
+    - word: 'context map, 上下文映射图'
+      meaning: 上下文地图
+      footnotes: [5]
+    - word: Context Mapping
+      meaning: 上下文映射
+      footnotes: [5]
+    - word: contextual keyword
+      meaning: 上下文关键字
+    - word: continuous integration
+      meaning: 持续集成
+    - word: contribute
+      meaning: 贡献
+    - word: Contributor License Agreement
+      meaning: 贡献者许可协议
+    - word: convention
+      meaning: 约定
+    - word: covariance
+      meaning: 协变
+    - word: contravariance
+      meaning: 逆变
+    - word: convert
+      meaning: 转换
+    - word: Convert Procedural Design to Objects
+      meaning: 将过程化设计转化为对象设计
+      footnotes: [1]
+    - word: cookie
+      meaning: Cookie
+    - word: copy-on-write
+      meaning: 写时复制
+    - word: core
+      meaning: '内核；.NET Core 的简写（能且仅能与 .NET Framework 的简写 `nfx` 同时出现，作如 `nfx/core`，单独使用时应为全称 `.NET Core`）'
+    - word: core domain
+      meaning: 核心领域
+    - word: corruption
+      meaning: 损毁
+    - word: Cosmetic issue
+      meaning: 外观上问题
+    - word: Cost of Change
+      meaning: 更改开销（CoC）
+    - word: CoT
+      meaning: 思维链（Chain-of-Thought）
+      footnotes: [6]
+    - word: COTS
+      meaning: 现成的商业软件（Commercial Off-The Shelf）
+      footnotes: [4]
+    - word: counterpoint
+      meaning: 对位
+      footnotes: [4]
+    - word: Coupling count
+      meaning: 耦合数：当一个方法被调用时传给它以及从它传出来的值的数目。如果该方法没有返回值，则耦合数就是它的参数数目。否则就是参数数目加 1。如果你想要在没有测试的情况下提取出一个消防法的话，计算一下它的耦合数是很有意义的。
+    - word: CPU
+      meaning: 中央处理器（Central Processing Unit）
+    - word: CQRS
+      meaning: 命令查询职责分离（Command-Query Responsibility Segregation）
+    - word: crash
+      meaning: （程序）崩溃
+    - word: crash dump
+      meaning: 故障转储
+    - word: Creational Design Patterns
+      meaning: 创建性设计模式
+    - word: CRC
+      meaning: 类-职责-交互（class-responsibility-collaboration）
+      footnotes: [4]
+    - word: credential
+      meaning: 凭证
+      footnotes: [4]
+    - word: cririque
+      meaning: 评估
+    - word: CRM
+      meaning: 客户关系管理（Customer Relationship Management）
+    - word: Cross Domain
+      meaning: 跨域
+    - word: Cross-browser
+      meaning: 跨浏览器
+    - word: Cross-platform
+      meaning: 跨平台
+    - word: Cross-Functional Requirement
+      meaning: 跨功能需求（CFR）
+      footnotes: [4]
+    - word: CRT
+      meaning: cathode ray tube，阴极射线管
+    - word: cruft
+      meaning: 残留
+    - word: cryptography
+      meaning: 密码术
+    - word: CTS
+      meaning: 公共类型系统（Common Type System）
+    - word: cursor
+      meaning: 光标
+    - word: Customizability
+      meaning: 可定制性
+    - word: cybraian
+      meaning: 电脑族
+    - word: cyberspace
+      meaning: 电脑空间
+    - word: cycle time
+      meaning: 周期时间
+    - word: cyclic digraph
+      meaning: 有向有环图
+    - word: Cyclic Hierarchy
+      meaning: 循环层次结构
+      footnotes: [2]
+    - word: Cyclically-dependent Modularization
+      meaning: 循环依赖式模块化
+      footnotes: [2]
+    - word: Cyclomatic complexity
+      meaning: 圈复杂度
+  D:
+    - word: DaaS
+      meaning: Data as a Service，数据即服务
+    - word: DAG
+      meaning: 有向无循环图
+    - word: dashboard
+      meaning: 仪表盘
+    - word: data access layer
+      meaning: 数据访问层
+    - word: Data Storage as a Service
+      meaning: 数据存储即服务（DaaS）
+    - word: data clumps
+      meaning: 数据泥团
+      footnotes: [2]
+    - word: Data Encryption Standard
+      meaning: 数据加密标准（DES）
+    - word: data layer
+      meaning: 数据层
+    - word: data integrity
+      meaning: 数据完整性
+    - word: data invariant
+      meaning: 数据不变式
+    - word: data mining
+      meaning: 数据挖掘
+    - word: data pump
+      meaning: 数据泵
+    - word: Data Transfer Object
+      meaning: 数据传输对象（DTO）
+    - word: declarative programming
+      meaning: 宣告式编程
+    - word: Decompose Conditional
+      meaning: 分解条件表达式
+      footnotes: [1]
+    - word: Decorator Pattern
+      meaning: 修饰器模式（DP）、装饰模式
+    - word: Deep Hierarchy
+      meaning: 过深的层次结构
+      footnotes: [2]
+    - word: Default Literal
+      meaning: 默认常值
+    - word: Defensive Programming
+      meaning: 防御式编程
+    - word: Deficient Encapsulation
+      meaning: 不充分的封装
+      footnotes: [2]
+    - word: Definition of Done
+      meaning: 完成的定义（DoD）
+    - word: denial-of-service attacks
+      meaning: 拒绝服务攻击
+      footnotes: [4]
+    - word: dependency injection
+      meaning: 依赖注入（DI）
+    - word: dependency
+      meaning: 依赖
+    - word: dependency digraph
+      meaning: 依赖有向图
+    - word: deployment
+      meaning: 部署
+    - word: dequeue
+      meaning: 出列
+    - word: derives from
+      meaning: 继承
+    - word: design pattern
+      meaning: 设计模式
+    - word: Design Requirements Document
+      meaning: 交互设计说明文档（DRD）
+    - word: device
+      meaning: 设备
+    - word: DFS
+      meaning: 深度优先搜索
+    - word: DfT
+      meaning: 为可测试性而设计
+    - word: DI
+      meaning: 依赖注入（dependency injection）
+    - word: DIaaS
+      meaning: Data intelligence as a Service，数据智能即服务（出自2022年6月29日，阿里常规线上新品牌发布会）
+    - word: diagnostics
+      meaning: 诊断
+    - word: directed graph
+      meaning: 有向图
+    - word: directive
+      meaning: 指令
+    - word: DiRT
+      meaning: 灾难恢复测试（Disaster Recovery Test）
+      footnotes: [4]
+    - word: discussion forum
+      meaning: 论坛
+    - word: disk
+      meaning: 磁盘
+    - word: distributed system
+      meaning: 分布式系统
+    - word: DLL
+      meaning: 动态链接库（Dynamic Link Library）
+    - word: DNS
+      meaning: 域名系统（Domain Name System）
+    - word: Document Object Model
+      meaning: 文档对象模型（DOM）
+    - word: domain-driven design
+      meaning: 领域驱动设计（DDD）
+    - word: Domain Event
+      meaning: 领域事件
+    - word: Domain Model
+      meaning: 领域模型
+    - word: Domain Name System
+      meaning: 域名系统（DNS）
+    - word: Domain Service
+      meaning: 领域服务
+    - word: Domain Specific Language
+      meaning: 领域特定语言（DSL）
+    - word: DRD
+      meaning: 交互设计说明文档（Design Requirements Document）
+    - word: DRY 原则
+      meaning: "不自我重复原则（Don't Repeat Yourself），“不要重复你自己”"
+      footnotes: [3]
+    - word: duck-typing
+      meaning: 鸭子类型
+    - word: duck test
+      meaning: 鸭子测试
+    - word: dummy function
+      meaning: 虚构函数
+    - word: dump
+      meaning: 转储
+    - word: Duplicate Abstraction
+      meaning: 重复的抽象
+      footnotes: [2]
+    - word: Duplicate Observed Data
+      meaning: 复制“被监视数据”
+      footnotes: [1]
+    - word: durability
+      meaning: 持久性
+    - word: Dynamic Link Library
+      meaning: 动态链接库（DLL）
+  E:
+    - word: EAP
+      meaning: 早期评估版本（Early Assessment Program）
+    - word: EAP
+      meaning: 基于事件的异步模式（Event-based Asynchronous Pattern）
+    - word: Early Assessment Program
+      meaning: 早期评估版本（EAP）
+    - word: effect sketch
+      meaning: 影响草图
+    - word: Egress
+      meaning: 流出
+    - word: elasticity
+      meaning: 弹性
+    - word: ELBs
+      meaning: 弹性负载均衡器（Elastic Load Balancers）
+      footnotes: [4]
+    - word: Element (XML)
+      meaning: 元素
+    - word: Elvis Operator
+      meaning: 埃尔维斯运算符
+    - word: Emergence
+      meaning: 涌现、创发、突现、呈展、演生，是一种现象。
+    - word: Encapsulate Collection
+      meaning: 封装集合
+      footnotes: [1]
+    - word: Encapsulate Downset
+      meaning: 封装向下转型
+      footnotes: [1]
+    - word: Encapsulate Field
+      meaning: 封装字段
+      footnotes: [1]
+    - word: endpoint
+      meaning: 端点
+    - word: enqueue
+      meaning: 入列；加入队列
+    - word: Enterprise Resource Planning
+      meaning: 企业资源计划（ERP）
+    - word: entity
+      meaning: 实体
+    - word: Entity Tags
+      meaning: 实体标签（ETag）
+    - word: entourage anti-pattern
+      meaning: 随从反模式
+    - word: erosion
+      meaning: 侵蚀
+    - word: Event-based Asynchronous Pattern
+      meaning: 基于事件的异步模式（EAP）
+    - word: event data pump
+      meaning: 时间数据泵
+      footnotes: [4]
+    - word: event sourcing
+      meaning: 事件源
+    - word: Evolvability
+      meaning: 可进化性
+    - word: exception handling
+      meaning: 异常处理
+    - word: Exclusive OR
+      meaning: 异或（XOR）
+    - word: explanatory figures
+      meaning: 图示
+    - word: Extensible Markup Language
+      meaning: 可扩展标记语言（XML）
+    - word: Extensibility
+      meaning: 可扩展性
+    - word: extra large
+      meaning: 特大型
+    - word: extra small
+      meaning: 特小型
+    - word: Extract Class
+      meaning: 提炼类
+      footnotes: [1]
+    - word: Extract Hierarchy
+      meaning: 提炼继承体系
+      footnotes: [1]
+    - word: Extract Interface
+      meaning: 提炼接口
+      footnotes: [1]
+    - word: Extract Method
+      meaning: 提炼函数
+      footnotes: [1]
+    - word: Extract Subclass
+      meaning: 提炼子类
+      footnotes: [1]
+    - word: Extract Superclass
+      meaning: 提炼超类
+      footnotes: [1]
+    - word: eXtreme Programming
+      meaning: 极限编程（XP）
+  F:
+    - word: Facade Pattern
+      meaning: 外观模式
+    - word: Factory Method Pattern
+      meaning: 工厂方法模式
+    - word: failover
+      meaning: 容错转移
+    - word: failure domain
+      meaning: 故障域
+    - word: fake object
+      meaning: 伪对象：在测试中伪装成一个类的合作者的对象
+    - word: fan-in
+      meaning: 扇入
+    - word: fan-out
+      meaning: 扇出
+    - word: fat client
+      meaning: 胖客户端
+    - word: FCL
+      meaning: .NET Framework 类库（Framework Class Library）
+    - word: FDD
+      meaning: 软盘（Floppy Disk Drive）
+    - word: feature sketch
+      meaning: 特性草图
+    - word: feed
+      meaning: 聚合（资源聚合）
+    - word: fine-tuning
+      meaning: 微调
+    - word: first-party
+      meaning: 第一方
+    - word: Floopy Disk Drive
+      meaning: 软盘（FDD）
+    - word: Flyweight Pattern
+      meaning: 享元模式
+    - word: follow up
+      meaning: 跟进
+    - word: foreign key
+      meaning: 外键
+    - word: Form Template Method
+      meaning: 塑造模板函数
+      footnotes: [1]
+    - word: format item
+      meaning: 格式项
+    - word: format string
+      meaning: 格式字符串
+    - word: forward
+      meaning: 转发
+    - word: FPP
+      meaning: 零售版（Full Packaged Product）
+    - word: Framework Class Library
+      meaning: .NET Framework 类库（FCL）
+    - word: FRD
+      meaning: 功能需求文档（Functional Requirements Document）
+    - word: free
+      meaning: 免费
+    - word: free function
+      meaning: '自由函数：一个不属于任何类的函数。在 C 和其他过程式语言中，自由函数被简单地称为函数；在 C++ 中被称为非成员函数。在 Java 和 C# 中没有自由函数。'
+    - word: Functional Requirements Document
+      meaning: 功能需求文档（FRD）
+    - word: full-duplex
+      meaning: 全双工
+    - word: Full Packaged Product
+      meaning: 零售版（FPP）
+    - word: Function Pointers
+      meaning: 函数指针
+  G:
+    - word: Garbage Collection
+      meaning: 垃圾回收器（GC）
+    - word: gauge
+      meaning: 计量表
+      footnotes: [4]
+    - word: GC Heap
+      meaning: 垃圾回收堆
+    - word: GC root
+      meaning: GC 根对象
+    - word: Generalization
+      meaning: 泛化
+    - word: Generalized Async
+      meaning: 通用异步
+    - word: Generalized Async Return
+      meaning: '通用异步返回（C# 7.0）'
+    - word: generalizing specialist
+      meaning: 全科专家（敏捷开发术语）
+    - word: generator
+      meaning: 生成器
+    - word: Generic Attributes
+      meaning: 泛型特性
+    - word: Generic Math
+      meaning: 泛型数学
+    - word: Geo-Replication
+      meaning: 地域复制
+    - word: Geo Redundant
+      meaning: 地域冗余
+    - word: Global Assembly Cache
+      meaning: 全局程序集缓存（GAC）
+    - word: global state
+      meaning: 全局状态
+    - word: global using directives
+      meaning: 全局 Using 指令
+    - word: Goal Directed Design
+      meaning: 目标导向设计，旨在处理并满足用户目标和动机，包含产品目标和用户目标
+    - word: GoT
+      meaning: 思维图，思维图谱（Graph-of-Thought）
+      footnotes: [6]
+    - word: GPT-3
+      meaning: Generative Pre-trained Transformer 3，是 OpenAI 最注明的 LLM 之一  ，拥有1750亿个参数。该模型在文本生成、翻译和其他任务中表现出显著的性能，在全球范围内引起了热烈的反响，目前 OpenAI 已经迭代到了更高版本。
+      footnotes: [6]
+    - word: Graph-of-Thought
+      meaning: 思维图，思维图谱（GoT）
+      footnotes: [6]
+    - word: Graphical User Interface
+      meaning: 图像用户界面设计（GUI），是一种结合计算机科学、美学、心理学、行为学、及各商业领域需求分析的人机系统工程，强调人、机、环境三者作为一个系统进行总体设计。
+    - word: GUI
+      meaning: 图像用户界面设计（Graphical User Interface）
+  H:
+    - word: Hackable
+      meaning: 修改方便（根据《Web API 设计与开发》一书之翻译）
+    - word: HAL
+      meaning: 超文本应用程序语言（Hypertext Application Language）
+      footnotes: [4]
+    - word: handle
+      meaning: 句柄
+    - word: Hard Disk Drive
+      meaning: 硬盘（HDD）
+    - word: HATEOAS
+      meaning: 超媒体作为程序状态的引擎（Hypermedia As The Engine Of Application State）
+      footnotes: [4]
+    - word: HCI
+      meaning: 人机交互（Human-Computer Interaction），属于研究层面，是人与计算机之间传递、交换信息的媒介和对话接口，是计算机系统的重要组成部分。
+    - word: HDD
+      meaning: 硬盘（Hard Disk Drive）
+    - word: header
+      meaning: 头；标头；表头
+    - word: Hexagonal Architecture
+      meaning: 六边形架构，由 Alistair Cockburn 提出
+      footnotes: [4]
+    - word: HMAC
+      meaning: 基于哈希的小系列码（Hash-based Message Authentication）
+      footnotes: [4]
+    - word: Hide Delegate
+      meaning: 隐藏“委托关系”
+      footnotes: [1]
+    - word: Hide Method
+      meaning: 隐藏函数
+      footnotes: [1]
+    - word: High Avaliability
+      meaning: 高可用性
+    - word: High Fidelity Prototype
+      meaning: 高保真原型，细节都比较详细的原型
+    - word: high surrogate
+      meaning: 高位代理项
+    - word: Homogeneous
+      meaning: 同质化
+    - word: hook
+      meaning: 钩子
+    - word: hook point
+      meaning: 挂接点
+    - word: Horizontal Scale
+      meaning: 水平缩放
+    - word: Hosting
+      meaning: 宿主
+    - word: Hub-like Modularization
+      meaning: 轮毂式模块化
+      footnotes: [2]
+    - word: HUI
+      meaning: 手持设备用户界面，包括手机端和车载导航等（Handset User Interface）
+    - word: Human-Computer Interaction
+      meaning: 人机交互（HCI）
+    - word: Humane Registry
+      meaning: 人文注册表（由 Martin Fowler 提出）
+      footnotes: [4]
+    - word: Hybrid Cloud
+      meaning: 混合云
+    - word: hypertext-driven
+      meaning: 超文本驱动
+    - word: HyperText Markup Language
+      meaning: 超文本标记语言（HTML）
+  I:
+    - word: IA
+      meaning: 信息架构（Information Architect）；
+    - word: Iaas
+      meaning: 设施即服务（Infrastructure as a Service）
+    - word: Idempotence
+      meaning: 幂等性
+    - word: Idempotent Operation
+      meaning: 幂等操作
+    - word: Identity Provider
+      meaning: 身份提供方
+    - word: IL
+      meaning: 中间语言（intermediate language）
+    - word: Illegitimate Injection
+      meaning: 非法注入
+    - word: IM
+      meaning: 即时通讯（Instant Messaging）
+    - word: image
+      meaning: 映像
+    - word: immersion approach
+      meaning: 沉浸法
+    - word: Imperative Abstraction
+      meaning: 命令式抽象
+      footnotes: [2]
+    - word: in-context learning
+      meaning: 上下文学习
+      footnotes: [6]
+    - word: Incomplete Abstraction
+      meaning: 不完整的抽象
+      footnotes: [2]
+    - word: index
+      meaning: 索引
+    - word: Information Architect
+      meaning: 信息架构（IA）
+    - word: Infrastructure as a Service
+      meaning: 设施即服务（Iaas）
+    - word: ingesting
+      meaning: 摄取
+    - word: ingress
+      meaning: 流入
+    - word: Inline Class
+      meaning: 将类内联化
+      footnotes: [1]
+    - word: Inline Method
+      meaning: 内联函数
+      footnotes: [1]
+    - word: Inline Temp
+      meaning: 内联临时变量
+      footnotes: [1]
+    - word: input endpoint
+      meaning: 输入端点
+    - word: instance
+      meaning: 实例
+    - word: Instance InputEndpoint
+      meaning: 实例输入端点
+    - word: Instant Messaging
+      meaning: 即时通讯（IM）
+    - word: instantiation
+      meaning: 实例化
+    - word: instantiator
+      meaning: 实例化器
+    - word: instruction fine-tuning
+      meaning: 指令微调
+    - word: Insufficient Modularization
+      meaning: 不充分的模块化
+      footnotes: [2]
+    - word: Interaction-based testing
+      meaning: 基于交互的测试
+    - word: Intercept
+      meaning: 截取
+    - word: interception point
+      meaning: 拦截点：可以编写测试来感知某些条件的地方
+    - word: intermediate language
+      meaning: 中间语言（IL）
+    - word: Internal Endpoint
+      meaning: 内部端点
+    - word: Internet Information Service
+      meaning: Internet 信息服务（IIS）
+    - word: Internet Protocol
+      meaning: 互联网协议（IP）
+    - word: Interpreter Pattern
+      meaning: 解释器模式
+    - word: interpolated strings
+      meaning: 内插字符串
+    - word: Introduce Assertion
+      meaning: 引入断言
+      footnotes: [1]
+    - word: Introduce Explaining Variable
+      meaning: 引入解释性变量
+      footnotes: [1]
+    - word: Introduce Foreign Method
+      meaning: 引入外加函数
+      footnotes: [1]
+    - word: Introduce Local Extension
+      meaning: 引入本地扩展
+      footnotes: [1]
+    - word: Introduce Null Object
+      meaning: 引入 Null 对象
+      footnotes: [1]
+    - word: Introduce Parameter Object
+      meaning: 引入参数对象
+      footnotes: [1]
+    - word: Intrusion Detection Systems
+      meaning: 入侵检测系统（IDS）
+      footnotes: [4]
+    - word: Intrusion Prevention Systems
+      meaning: 入侵预防系统（IPS）
+      footnotes: [4]
+    - word: Inversion of Control
+      meaning: 控制反转（IoC）
+    - word: Isolation
+      meaning: 隔离性
+    - word: isomorphism
+      meaning: 同构（数学领域专用术语）
+    - word: iterable
+      meaning: 可迭代的
+    - word: iteration
+      meaning: 迭代
+    - word: iterator
+      meaning: 迭代器
+    - word: Iterator Pattern
+      meaning: 迭代模式
+    - word: iterator protocol
+      meaning: 迭代器协议
+  J:
+    - word: Job
+      meaning: 作业
+    - word: Job Description
+      meaning: 岗位描述（JD）
+    - word: JOSE
+      meaning: JSON 对象签名和加密
+    - word: Json Web Token
+      meaning: JSON Web 令牌
+      footnotes: [4]
+    - word: just-in-time compilation
+      meaning: 即时编译，JIT 编译
+    - word: JVM
+      meaning: Java 虚拟机（Java Virtual Machine）
+  K:
+    - word: Key
+      meaning: 密钥
+    - word: key-event notification
+      meaning: 键事件通知
+    - word: Key Opinion Leader
+      meaning: 关键意见领袖（KOL），俗称大 V
+    - word: Key Performance Indicator
+      meaning: 关键绩效考核指标（KPI）
+    - word: Key Space
+      meaning: 键空间
+    - word: key-space notification
+      meaning: 键空间通知
+    - word: Key-Value Pair
+      meaning: 键-值对
+    - word: KISS 原则
+      meaning: 保持简单原则（Keep It Simple Silly），“简单是一切之本”
+      footnotes: [3]
+    - word: KPI
+      meaning: 关键绩效考核指标（Key Performance Indicator）
+  L:
+    - word: Language Integrated Query
+      meaning: 语言集成查询（LINQ）
+    - word: Large
+      meaning: 大型
+    - word: Large Language Model
+      meaning: 大型语言模型（LLM）
+      footnotes: [6]
+    - word: Layered Architecture
+      meaning: 分层架构
+    - word: LDAP
+      meaning: Lightweight Directory Access Protocol，轻型目录访问协议
+    - word: Leaky Encapsulation
+      meaning: 泄露的封装
+      footnotes: [2]
+    - word: Legacy system
+      meaning: 遗留系统
+    - word: license
+      meaning: 许可证
+    - word: lifetime
+      meaning: 生命周期
+    - word: Lightweight Directory Access Protocol
+      meaning: 轻量级目录访问协议（LDAP）
+      footnotes: [4]
+    - word: LINE of Business
+      meaning: 业务线（LOB）
+      footnotes: [4]
+    - word: link
+      meaning: 链接
+    - word: link seam
+      meaning: 连接期接缝：在连接期接缝处，可以通过连接到另一个库来替换行为。在编译型语言中可替换的东西包括产品库、DLL、程序集或 JAR 文件。其目的是为了解除依赖，或感知某些在测试期间可有能会发生的条件。
+    - word: linked resource
+      meaning: 链接的资源
+    - word: Liskov Substitution Principle
+      meaning: 里氏替换原则（LSP）
+    - word: literal
+      meaning: 字面量、文字常量、直接量
+    - word: living style guides
+      meaning: 活样式指导
+      footnotes: [4]
+    - word: LLM
+      meaning: 大型语言模型（Large Language Model）
+      footnotes: [6]
+    - word: load-balancing
+      meaning: 负载平衡
+    - word: load balancer
+      meaning: 负载平衡器
+    - word: load factor
+      meaning: 负载因子
+    - word: load shedding
+      meaning: 减载
+      footnotes: [4]
+    - word: LOC
+      meaning: 代码行数
+    - word: Local Function
+      meaning: 局部函数
+    - word: lock-step release
+      meaning: 同步发布
+      footnotes: [4]
+    - word: log
+      meaning: 日志
+    - word: loop
+      meaning: 自循环
+    - word: loose coupling
+      meaning: 松散耦合
+    - word: Low Fidelity Prototype
+      meaning: 低保真原型，抽象原型视图
+    - word: low surrogate
+      meaning: 低位代理项
+    - word: LSUD
+      meaning: 大批你所不知道的开发人员（Large Set of Unknown Developers）
+  M:
+    - word: Mainframe
+      meaning: 主机
+    - word: Maintainability
+      meaning: 可维护性
+    - word: managed code
+      meaning: 托管代码
+    - word: managed execution
+      meaning: 托管执行
+    - word: Man-In-The-Middle Attack
+      meaning: 中间人攻击（MITM 攻击）
+    - word: Management Key
+      meaning: 管理密钥
+    - word: manifest
+      meaning: 清单
+    - word: map
+      meaning: 映射
+    - word: Market Requirement Document
+      meaning: 市场需求文档（MRD）
+    - word: Massive Multiplayer Online Role-Playing Game
+      meaning: 大型多人在线角色扮演游戏（MMORPG）
+    - word: Massively Multiplayer Online Role-Playing Game
+      meaning: 大型多人在线角色扮演游戏（MMORPG）
+    - word: Mathematical Markup Language
+      meaning: 数学标记语言（MathML）
+    - word: Mean Time Between Failures
+      meaning: 平均故障时间间隔（MTBF）
+      footnotes: [4]
+    - word: Mean Time To Repair
+      meaning: 平均修复时间（MTTR）
+      footnotes: [4]
+    - word: Media Service
+      meaning: 媒体服务
+    - word: Mediator Pattern
+      meaning: 中介者模式
+    - word: Medium
+      meaning: 中型
+    - word: Memento Pattern
+      meaning: 备忘录模式
+    - word: Merge
+      meaning: 合并
+    - word: Metadata
+      meaning: 元数据
+    - word: metaprogramming
+      meaning: 元编程
+    - word: Middleware
+      meaning: 中间件
+    - word: mind map
+      meaning: 思维导图、脑图、心智图
+    - word: Minimum Marketable Feature
+      meaning: 最小可售特性（MMF）
+    - word: Minimum Viable Product
+      meaning: 最小化可行产品（MVP）
+    - word: Minimum Viable Release
+      meaning: 最小可行发布（MVR）
+    - word: Missing Abstraction
+      meaning: 缺失抽象
+      footnotes: [2]
+    - word: Missing Encapsulation
+      meaning: 缺失的封装
+      footnotes: [2]
+    - word: Missing Hierarchy
+      meaning: 缺失层次结构
+      footnotes: [2]
+    - word: Mixed Reality
+      meaning: 混合现实（MR）
+    - word: Mobile Service
+      meaning: 移动服务
+    - word: Mock Object
+      meaning: 模拟对象，仿对象：在内部对条件进行断言的伪对象
+    - word: Move Field
+      meaning: 搬移字段
+      footnotes: [1]
+    - word: Move Method
+      meaning: 搬移函数
+      footnotes: [1]
+    - word: MRD
+      meaning: 市场需求文档（Market Requirement Document）
+    - word: Multitenancy
+      meaning: 多租户
+    - word: Multifaced Abstraction
+      meaning: 多方面抽象
+      footnotes: [2]
+    - word: Multipath Hierarchy
+      meaning: 多路径层次结构
+      footnotes: [2]
+    - word: Multitier Architecture
+      meaning: 多层体系结构
+    - word: Multi-factor Authentication
+      meaning: 多重验证
+  N:
+    - word: naming collisions
+      meaning: 命名冲突
+    - word: Namespace
+      meaning: 命名空间，名称空间
+    - word: native code
+      meaning: 本机代码
+    - word: NCC
+      meaning: .NET Core 社区（.NET Core Community）/.NET 中国社区（.NET China Community）
+    - word: Near Field Communication
+      meaning: 近距离无线通信（NFC）
+    - word: network hops
+      meaning: 网络跳数
+    - word: NFC
+      meaning: 近距离无线通信（Near Field Communication）
+    - word: nfx
+      meaning: .NET Framework（.NET 框架）
+    - word: Non-clustered Index
+      meaning: 非聚集索引
+    - word: non-managed code
+      meaning: 非托管代码
+    - word: non-optional
+      meaning: 非可选的
+    - word: non-transactional pipeline
+      meaning: 非事务型流水线
+    - word: node
+      meaning: 节点
+    - word: normalize
+      meaning: 规格化
+    - word: notification
+      meaning: 通知
+    - word: notification hub
+      meaning: 通知中心
+    - word: Null Object Pattern
+      meaning: 空对象模式
+    - word: null-coalescing
+      meaning: 空值合并
+    - word: Null coalescing operator
+      meaning: 空值合并运算符、空值结合运算符
+    - word: N-Tier
+      meaning: N 层（结构）
+  O:
+    - word: obfuscator
+      meaning: 混淆器
+    - word: Object Pool
+      meaning: 对象池
+    - word: Object Pool Pattern
+      meaning: 对象池模式
+    - word: Object/Relational Mapper
+      meaning: 对象/关系映射器（ORM，O/RM）
+    - word: object seam
+      meaning: 对象接缝：在对象连接处可以通过替换一个对象为另一个对象来“更替”行为。在面向对象语言中，通常通过子类化产品代码中的类并重写其方法来实现这一点。
+    - word: Objectives and Key Results
+      meaning: 目标与关键成果法（OKR）
+    - word: Observer Pattern
+      meaning: 观察者模式
+    - word: On-demand (media)
+      meaning: 点播（媒体）
+    - word: Once and Only Once
+      meaning: 一次且仅一次(OAOO)
+      footnotes: [3]
+    - word: 'One rule, one place'
+      meaning: 一个规则，实现一次
+    - word: One-Size-Fits-All
+      meaning: OSFA
+    - word: one-time token
+      meaning: 一次性令牌
+    - word: Onion Architecture
+      meaning: 洋葱架构，由 Jeffrey Palermo 提出
+    - word: Open Closed Principle
+      meaning: 开闭原则（OCP）
+    - word: Open System Interconnection
+      meaning: 开放式系统互联（OSI）
+    - word: Operating System
+      meaning: 操作系统（OS）
+    - word: Optical Character Recognition
+      meaning: 光学字符识别（OCR）
+    - word: Optimistic Concurrency
+      meaning: 乐观并发控制
+    - word: optimistic locking
+      meaning: 乐观锁
+    - word: orchestration
+      meaning: 编排
+    - word: Orchestration Layer
+      meaning: 策略编排层
+    - word: Ordering Principal
+      meaning: 良序原则
+    - word: OS
+      meaning: 操作系统（Operating System）
+    - word: OSGI
+      meaning: 开放服务网关协议（Open Source Gateway Initiative）
+      footnotes: [4]
+    - word: overriding
+      meaning: 重写
+    - word: Overview
+      meaning: 概览
+    - word: over-post
+      meaning: 过度提交
+    - word: OWASP
+      meaning: 开放式 Web 应用程序安全项目（Open Web Application Security Project）
+      footnotes: [4]
+  P:
+    - word: P2P
+      meaning: 个人对个人（Person-to-Person）
+    - word: Paas
+      meaning: 平台即服务（Platform As A Service）
+    - word: packet sniffing
+      meaning: 分组嗅探
+    - word: Page Blob
+      meaning: 页 BLOB
+    - word: Parameterize Method
+      meaning: 令函数携带参数
+      footnotes: [1]
+    - word: Partial Translate
+      meaning: 部分翻译（出自 Chrome 浏览器）
+    - word: partition
+      meaning: 分区
+    - word: Partition tolerance
+      meaning: 分区容忍性
+      footnotes: [4]
+    - word: PascalCase
+      meaning: Pascal 大小写
+    - word: pass-through
+      meaning: 直托
+    - word: passive
+      meaning: 被动（的）
+    - word: pattern
+      meaning: 模式
+    - word: Pay as You Go
+      meaning: 即用即付
+    - word: PC
+      meaning: 个人计算机（Personal Computer）
+    - word: peek
+      meaning: 查看
+    - word: peering rules
+      meaning: 对等交互规则
+      footnotes: [4]
+    - word: Percent Encoding
+      meaning: 百分号编码
+    - word: performance
+      meaning: 性能
+    - word: performance counter
+      meaning: 性能计数器
+    - word: performance-oriented
+      meaning: 面向性能
+    - word: Person-to-Person
+      meaning: 个人对个人（P2P）
+    - word: Personal Computer
+      meaning: 个人计算机（PC）
+    - word: Pessimistic Concurrency
+      meaning: 悲观并发控制
+    - word: pessimistic locking
+      meaning: 悲观锁
+    - word: PHAME
+      meaning: '由 Booch 提出的对象模型的 4 个主要元素的设计规则的统称，即 Principle of Hierarchy, Abstraction, Modularization, and Encapsulation，层次结构、抽象、模块化与封装原则'
+    - word: pinch point
+      meaning: 汇点：影响结构图中的隘口和交通要冲，在汇点编写测试的好处就是只需针对少数几个方法编写测试，就能达到探测大量其他方法的改动的目的。
+    - word: placeholder
+      meaning: 占位符
+    - word: Platform as a Service
+      meaning: 平台即服务（Paas）
+    - word: PMD
+      meaning: 项目管理文档（Program Managment Document）
+    - word: point of invocation of the method
+      meaning: 方法调用点
+    - word: Point-to-Site
+      meaning: 点到站点
+    - word: polling
+      meaning: 轮询
+    - word: polymorphism
+      meaning: 多态
+    - word: polyrot programming
+      meaning: 多语言编程
+    - word: Poor Man’s Dependency Injection
+      meaning: 穷人的依赖注入
+    - word: post-initialization
+      meaning: 后初始化
+    - word: postcondition
+      meaning: 后置条件
+    - word: PoT
+      meaning: 程序思维（Program-to-Thoughts）
+      footnotes: [6]
+    - word: PRD
+      meaning: 产品需求文档（Product Requirements Document）
+    - word: pre-flight request
+      meaning: 事先请求
+    - word: pre-initialization
+      meaning: 预初始化
+    - word: pre-training
+      meaning: 预训练
+      footnotes: [6]
+    - word: Predicate Decorator
+      meaning: 谓词修饰器
+    - word: precondition
+      meaning: 前提，前置条件
+    - word: presentation layer
+      meaning: 表现层
+    - word: Preserve Whole Object
+      meaning: 保持对象完整
+      footnotes: [1]
+    - word: primary database
+      meaning: 主数据库
+    - word: primary storage
+      meaning: 主存储
+    - word: primitive obsession
+      meaning: 基本类型偏执
+      footnotes: [2]
+    - word: principal
+      meaning: 主体
+      footnotes: [4]
+    - word: Private Class Data Pattern
+      meaning: 私有类数据模式
+    - word: private cloud
+      meaning: 私有云
+    - word: priority queue
+      meaning: 优先级队列
+    - word: probe
+      meaning: 探测器
+    - word: process
+      meaning: 进程
+    - word: producer
+      meaning: 生产者
+    - word: product backlog
+      meaning: 产品积压工作
+    - word: Product Owner
+      meaning: 产品负责人（PO）
+    - word: Product Requirements Document
+      meaning: 产品需求文档（PRD）
+    - word: production
+      meaning: 生产（环境）
+    - word: production load
+      meaning: 生产负载
+      footnotes: [4]
+    - word: Program Managment Document
+      meaning: 项目管理文档（PMD）
+    - word: Program-to-Thoughts
+      meaning: 程序思维（PoT）
+      footnotes: [6]
+    - word: programming by difference
+      meaning: 差异式编程
+    - word: proof of concept
+      meaning: 概念验证
+    - word: proportional error rate
+      meaning: 错误率比例
+      footnotes: [4]
+    - word: protected variation
+      meaning: 防止变异
+    - word: protocol
+      meaning: 协议
+    - word: prototype
+      meaning: 原型
+    - word: Prototype Pattern
+      meaning: 原型模式
+    - word: proxy
+      meaning: 代理
+    - word: Proxy Pattern
+      meaning: 代理模式
+    - word: public cloud
+      meaning: 公有云
+    - word: Pull Up Constructor Body
+      meaning: 构造函数本体上移
+      footnotes: [1]
+    - word: Pull Up Field
+      meaning: 字段上移
+      footnotes: [1]
+    - word: Pull Up Method
+      meaning: 函数上移
+      footnotes: [1]
+    - word: push
+      meaning: 推送
+    - word: Push Down Field
+      meaning: 字段下移
+      footnotes: [1]
+    - word: Push Down Method
+      meaning: 函数下移
+      footnotes: [1]
+  Q:
+    - word: quality assurance
+      meaning: 质量保证（QA）
+    - word: Queue
+      meaning: 队列
+    - word: Quota
+      meaning: 配额
+  R:
+    - word: Rack
+      meaning: 机架
+    - word: RAII
+      meaning: Resource Acquisition Is Initialization，资源获取即初始化
+    - word: Rapid Application Development
+      meaning: 快速应用程序开发（RAD）
+    - word: RDBMS
+      meaning: 关系型数据库管理系统（Relational Database Management System）
+    - word: Reactive extensions
+      meaning: 响应式扩展（Rx）
+      footnotes: [4]
+    - word: Ready (status)
+      meaning: 就绪（状态）
+    - word: real-time
+      meaning: 即时、实时
+    - word: real-time discussions
+      meaning: 即时讨论、实时讨论
+    - word: Rebellious Hierarchy
+      meaning: 叛逆性层次结构
+      footnotes: [2]
+    - word: recursion
+      meaning: 递归
+    - word: Redundancy
+      meaning: 冗余
+    - word: Redundant
+      meaning: 冗余（的）
+    - word: Ref Return
+      meaning: 应用返回
+    - word: Ref Local
+      meaning: 局部引用
+    - word: Ref Property
+      meaning: 引用属性
+    - word: Ref-Safe-to-Escape
+      meaning: 引用安全逃逸
+    - word: Ref-Safe-to-Escape scope
+      meaning: 引用安全逃逸范围
+    - word: Refactor
+      meaning: 重构
+    - word: region
+      meaning: 地域
+    - word: reification
+      meaning: 具体化
+    - word: Reinforcement Learning
+      meaning: 强化学习，一种机器学习的方法，通过从外部获得激励来校正学习方向从而获得一种自适应的学习能力
+    - word: Reinforcement Learning from Human Feedback
+      meaning: 基于人工反馈的强化学习（RLHF）
+    - word: relay
+      meaning: 中继
+    - word: Relevancy
+      meaning: 适切性
+    - word: Reliability
+      meaning: 可靠性
+    - word: Relying Party
+      meaning: 依赖方
+    - word: Remove Assignments to Parameters
+      meaning: 移除对参数的赋值
+      footnotes: [1]
+    - word: Remove Control Flag
+      meaning: 移除控制标记
+      footnotes: [1]
+    - word: Remove Middle Man
+      meaning: 移除中间人
+      footnotes: [1]
+    - word: Remove Parameter
+      meaning: 移除参数
+      footnotes: [1]
+    - word: Remove Setting Method
+      meaning: 移除配置函数
+      footnotes: [1]
+    - word: Rename Method
+      meaning: 函数改名
+      footnotes: [1]
+    - word: Replace Array with Object
+      meaning: 以对象取代数组
+      footnotes: [1]
+    - word: Replace Conditional with Polymorphism
+      meaning: 以多态取代条件表达式
+      footnotes: [1]
+    - word: Replace Constructor with Factory Method
+      meaning: 以工厂函数取代构造函数
+      footnotes: [1]
+    - word: Replace Data Value with Object
+      meaning: 以对象取代数据值
+      footnotes: [1]
+    - word: Replace Delegation with Inheritance
+      meaning: 以继承取代委托
+      footnotes: [1]
+    - word: Replace Error 　 Code with Exception
+      meaning: 以异常取代错误码
+      footnotes: [1]
+    - word: Replace Exception with Test
+      meaning: 以测试取代异常
+      footnotes: [1]
+    - word: Replace Inheritance with Delegation
+      meaning: 以委托取代继承
+      footnotes: [1]
+    - word: Replace Magic Number with Symbolic Constant
+      meaning: 以字面常量取代魔法数
+      footnotes: [1]
+    - word: Replace Method with Method Object
+      meaning: 以函数对象取代函数
+      footnotes: [1]
+    - word: Replace Nested Conditional with Guard Clauses
+      meaning: 以卫语句取代嵌套条件表达式
+      footnotes: [1]
+    - word: Replace Parameter with Explicit Methods
+      meaning: 以明确函数取代参数
+      footnotes: [1]
+    - word: Replace Parameter with Methods
+      meaning: 以函数取代参数
+      footnotes: [1]
+    - word: Replace Record with Data Class
+      meaning: 以数据类取代记录
+      footnotes: [1]
+    - word: Replace Subclass with Fields
+      meaning: 以字段取代子类
+      footnotes: [1]
+    - word: Replace Temp with Query
+      meaning: 以查询取代临时变量
+      footnotes: [1]
+    - word: Replace Type Code with Class
+      meaning: 以类取代类型码
+      footnotes: [1]
+    - word: Replace Type Code with State/Strategy
+      meaning: 以 State/Strategy 取代类型码
+      footnotes: [1]
+    - word: Replace Type Code with Subclass
+      meaning: 以子类取代类型码
+      footnotes: [1]
+    - word: reporting
+      meaning: 报表
+    - word: Repository
+      meaning: 存储库；仓储；仓库；资源库
+    - word: REpresentational State Transfer
+      meaning: 表述性状态转移、表征性状态传输、具象状态传输（REST）
+    - word: request pipeline
+      meaning: 请求管道
+    - word: Requirements Churn
+      meaning: 需求波动
+    - word: reserved
+      meaning: 专属
+    - word: resolution
+      meaning: 解析
+    - word: Resource Acquisition Is Initialization
+      meaning: 资源获取即初始化（RAII）
+    - word: Resource Release Is Destruction
+      meaning: 在构造时没有“获取”资源，但在析构时释放资源（RRID），一种 RAII 的特殊用法
+    - word: Resource-Oriented Architecture
+      meaning: 面向资源的架构(ROA)
+    - word: Response Group
+      meaning: 响应群
+    - word: Return on Investment
+      meaning: 投资回报（ROI）
+    - word: reverse proxy module
+      meaning: 反向代理模块
+    - word: retail
+      meaning: 零售版
+    - word: Rich Client
+      meaning: 丰富客户端
+    - word: Ripple Effect
+      meaning: 涟漪效应
+    - word: RLHF
+      meaning: 基于人工反馈的强化学习（Reinforcement Learning from Human Feedback）
+    - word: role
+      meaning: 角色
+    - word: Rolling Upgrade
+      meaning: 滚动升级
+    - word: round-robin
+      meaning: 轮流（分配）；轮叫
+    - word: round-tripping
+      meaning: 还原；回传；往返，往返切换
+    - word: router
+      meaning: 路由器
+    - word: row
+      meaning: 行
+    - word: RPC
+      meaning: 远程过程调用（Remote Procedure Call）
+      footnotes: [4]
+    - word: RRID
+      meaning: Resource Release Is Destruction，在构造时没有“获取”资源，但在析构时释放资源，一种 RAII 的特殊用法
+  S:
+    - word: Saas
+      meaning: 软件即服务（Software As A Service）
+    - word: Safe-to-Escape
+      meaning: 安全逃逸
+    - word: Safe-to-Escape scope
+      meaning: 安全逃逸范围
+    - word: salted password hashing
+      meaning: 加盐密码哈希
+      footnotes: [4]
+    - word: SAN
+      meaning: 存储区域网络（Storage Area Network）
+      footnotes: [4]
+    - word: SASL
+      meaning: 简单认证与安全层
+    - word: Scalability
+      meaning: 缩放性
+    - word: Scalable Vector Graphic
+      meaning: 可伸缩矢量图（SVG）
+    - word: Scale
+      meaning: 缩放
+    - word: Scale Out
+      meaning: 向外缩放
+    - word: Scale Up
+      meaning: 向上缩放
+    - word: scaling pattern
+      meaning: 扩展模式
+      footnotes: [4]
+    - word: Schema (database)
+      meaning: 架构（数据）
+    - word: Schema (xml)
+      meaning: 架构（xml）
+    - word: Scrum Master
+      meaning: Scrum 主管（SM）
+    - word: SDK
+      meaning: 软件开发工具箱（Software Development Kits）
+    - word: seam
+      meaning: 接缝：程序中的一些特殊的点，可以让你无需做任何修改就能达到修改程序行为的目的。
+    - word: Search Engine
+      meaning: 搜索引擎（SE）
+    - word: Search Engine Marketing
+      meaning: 搜索引擎营销（SEM）
+    - word: Search Engine Optimization
+      meaning: 搜索引擎优化（SEO）
+    - word: secondary storage
+      meaning: 二级存储
+    - word: Secure Socket Layer
+      meaning: 安全套接层（SSL）
+    - word: Security
+      meaning: 安全（性）
+    - word: Security Development Lifecycle
+      meaning: 安全开发生命周期
+      footnotes: [4]
+    - word: Security Socket Layer
+      meaning: 安全套接层
+    - word: Security Token
+      meaning: 安全令牌
+    - word: Self Encapsulate Field
+      meaning: 自封装字段
+      footnotes: [1]
+    - word: self-hosted
+      meaning: 自管理主机
+      footnotes: [4]
+    - word: Self-signed Certificate
+      meaning: 自签名证书
+    - word: Semantic Kernel
+      meaning: 语义核心
+      footnotes: [6]
+    - word: semantic monitoring
+      meaning: 语义监控
+      footnotes: [4]
+    - word: Semantic Versioning
+      meaning: 语义化版本控制
+    - word: Separate Domain from Presentation
+      meaning: 将领域和表述/显示分离
+      footnotes: [1]
+    - word: Separate Query from Modifier
+      meaning: 将查询函数和修改函数分离
+      footnotes: [1]
+    - word: Serializable
+      meaning: 可序列化
+    - word: Server Affinity
+      meaning: 服务器绑定
+    - word: Server Driven Content Negotiation
+      meaning: 服务器驱动的内容协商
+    - word: Server Side Render
+      meaning: 服务器渲染（SSR）
+    - word: Service Bus
+      meaning: 服务总线
+    - word: Service Contract
+      meaning: 服务合同
+    - word: Service Level Agreement
+      meaning: 服务水平协议（SLA）
+    - word: Service Provider
+      meaning: 服务提供方
+    - word: session jacking
+      meaning: 会话劫持
+    - word: Setting
+      meaning: 设置
+    - word: Shared
+      meaning: 共享；分享
+    - word: shared-memory data structure
+      meaning: 共享内存数据结构
+    - word: Short-circuit evaluation
+      meaning: 短路求值
+    - word: Sign in
+      meaning: 登录
+    - word: Sign out
+      meaning: 注销
+    - word: Signature
+      meaning: 签名
+    - word: Single Level of Abstraction Principle
+      meaning: 单一抽象层次原则（SLAP）
+    - word: Single responsibility principle
+      meaning: 单一职责原则（SRP）
+    - word: Single Page Application
+      meaning: 单页面应用（SPA）
+    - word: single point of failure
+      meaning: 单一故障点（SPOF）
+    - word: Singleton Pattern
+      meaning: 单例模式
+    - word: Site
+      meaning: 站点
+    - word: Site-to-Site
+      meaning: 站点到站点
+    - word: Skeleton-to-Thought
+      meaning: 思维框架（SoT）
+      footnotes: [6]
+    - word: skip list
+      meaning: 跳跃表
+    - word: SLA
+      meaning: 服务水平协议、服务等级协议（Service Level Agreement）
+    - word: Small
+      meaning: 小型
+    - word: smart endpoint
+      meaning: 智能端点
+      footnotes: [4]
+    - word: snapshot
+      meaning: 快照
+    - word: SOA
+      meaning: 面向服务的架构（Service-Oriented Architecture）
+    - word: SoT
+      meaning: 思维框架（Skeleton-to-Thought）
+      footnotes: [6]
+    - word: Software as a Service
+      meaning: 软件即服务（Saas）
+    - word: source lines of code
+      meaning: 源代码行数（SLOC）
+    - word: Speculative Hierarchy
+      meaning: 凭空想象的层次结构
+      footnotes: [2]
+    - word: Split Temporary Variable
+      meaning: 分解临时变量
+      footnotes: [1]
+    - word: sprint
+      meaning: 冲刺（敏捷开发术语）
+    - word: sprint backlog
+      meaning: 冲刺积压工作
+    - word: SQL Database
+      meaning: SQL 数据库
+    - word: SSKD
+      meaning: 少量你所知道的开发人员（Small Set of Known Developers）
+    - word: SSO
+      meaning: 单点登录（Single Sign-On）
+      footnotes: [4]
+    - word: stage
+      meaning: 阶段
+    - word: Staging
+      meaning: 过渡（环境）
+    - word: state indeterminism
+      meaning: 状态不确定性
+    - word: State-based testing
+      meaning: 基于状态的测试
+    - word: State Pattern
+      meaning: 状态模式
+    - word: Stateless
+      meaning: 无状态
+    - word: Sticky Session
+      meaning: 黏性会话
+    - word: Stickyness
+      meaning: 黏性；黏度
+    - word: story
+      meaning: 故事（敏捷开发术语）
+    - word: Storage
+      meaning: 存储
+    - word: Storage Account
+      meaning: 存储账户
+    - word: Strangler Application Pattern
+      meaning: 绞杀者模式
+      footnotes: [4]
+    - word: strategic development tools
+      meaning: 战略设计工具 ，战略开发工具
+      footnotes: [5]
+    - word: Strategy Pattern
+      meaning: 策略模式
+    - word: Stream
+      meaning: 流
+    - word: Structural Design Patterns
+      meaning: 结构性设计模式
+    - word: structure
+      meaning: 结构
+    - word: Structured Systems Analysis and Design Methodology
+      meaning: 结构化系统分析和设计方法（SSADM）
+    - word: Subnet
+      meaning: 子网
+    - word: Subordinate
+      meaning: 附属
+    - word: Sub-region
+      meaning: 子地域
+    - word: Subdomain
+      meaning: 子领域
+    - word: Subscription
+      meaning: 订阅
+    - word: Substitute Algorithm
+      meaning: 替换算法
+      footnotes: [1]
+    - word: SW
+      meaning: Apache SkyWalking 的简写
+    - word: symbol table
+      meaning: 符号表
+    - word: Synchronized Multimedia Integration Language
+      meaning: 同步多媒体集成语言（SMIL）
+    - word: syntactic sugar
+      meaning: 语法糖
+    - word: System Under Test
+      meaning: 测试目标系统（SUT）
+  T:
+    - word: Table
+      meaning: 表
+    - word: tactical development tools
+      meaning: 战术实施工具 ，战术开发工具
+      footnotes: [5]
+    - word: 'TAP,'
+      meaning: 基于任务的异步模式
+    - word: targeted testing
+      meaning: 目标测试
+    - word: Task-based Asynchronous Pattern
+      meaning: 基于任务的异步模式
+    - word: TCP
+      meaning: 传输控制协议（Transmission Control Protocol）
+    - word: TDD
+      meaning: 测试驱动开发（Test-Driven Development）
+    - word: Tease Apart Inheritance
+      meaning: 梳理并分解继承体系
+      footnotes: [1]
+    - word: technical bankruptcy
+      meaning: 技术破产
+    - word: Technical Debt
+      meaning: 技术债务（TDBT）
+    - word: Template Method Pattern
+      meaning: 模板方法模式
+    - word: Tenant
+      meaning: 租户
+    - word: Terminus
+      meaning: 端点
+    - word: test doubles
+      meaning: 测试替身
+    - word: Test-Driven Development
+      meaning: 测试驱动开发（TDD）
+    - word: test harness
+      meaning: 测试用具
+    - word: the normalization of deviance
+      meaning: 异常正常化
+      footnotes: [4]
+    - word: Thin Client
+      meaning: 瘦客户端
+    - word: Thread
+      meaning: 线程
+    - word: Thread Environment Block
+      meaning: 线程环境块
+    - word: Thread Kernel Object
+      meaning: 线程内核对象
+    - word: Thread Pool
+      meaning: 线程池
+    - word: Thread Starvation
+      meaning: 线程饥荒
+    - word: Throttle
+      meaning: 节流；限速
+    - word: Timestamp
+      meaning: 时间戳
+    - word: Throughput
+      meaning: 吞吐量
+    - word: TNP
+      meaning: 交通网络提供者（Transportation Network Providers）
+    - word: TOFU
+      meaning: 首次使用时信任（Trust On First Use）
+    - word: Topic
+      meaning: 主题
+    - word: Topology
+      meaning: 拓扑结构
+    - word: Token
+      meaning: 令牌
+    - word: Top-level statements
+      meaning: 顶级语句
+    - word: ToT
+      meaning: 思维树（Tree-of-Thought）
+    - word: TPL
+      meaning: 任务并行库
+    - word: (Code) Tracing
+      meaning: （代码）追踪
+    - word: Transaction
+      meaning: 事务
+    - word: Transaction Script
+      meaning: 事务脚本
+    - word: Transient Error
+      meaning: 瞬时错误
+    - word: Transparent Data Encryption
+      meaning: 透明数据加密
+      footnotes: [4]
+    - word: Transportation Network Providers
+      meaning: 交通网络提供者（TNP）
+    - word: Tree-of-Thought
+      meaning: 思维树（ToT）  是一种通过将复杂问题分解为更易于解决的小问题，为 LLM 推理提供更结构化的提示框架
+      footnotes: [6]
+    - word: Type Bloat
+      meaning: 类型膨胀
+  U:
+    - word: UAT
+      meaning: 用户验收测试（User Acceptance Testing）
+      footnotes: [4]
+    - word: Ubiquitous Computing
+      meaning: 普存计算
+    - word: Ubiquitous Language
+      meaning: 统一语言
+    - word: UDDI
+      meaning: '通用描述、发现与集成服务（Universal Description, Discovery, and Integration）'
+    - word: UI
+      meaning: 用户界面，包括视觉设计、交互设计和用户体验（User Interface）
+    - word: Uncommitted
+      meaning: 未提交（的）
+    - word: Update Domain
+      meaning: 更新域
+    - word: unbox
+      meaning: 拆箱
+    - word: under-post
+      meaning: 提交不足
+    - word: undirected graph
+      meaning: 无向图
+    - word: Unexploited Encapsulation
+      meaning: 未利用封装
+      footnotes: [2]
+    - word: Unfactored Hierarchy
+      meaning: 未归并的层次结构
+      footnotes: [2]
+    - word: Unified Modeling Language
+      meaning: 统一建模语言（UML）
+    - word: Uniform Interface
+      meaning: 统一接口
+    - word: Uniform Resource Locator
+      meaning: 统一资源定位符（URL）
+    - word: unit of work
+      meaning: 工作单元
+    - word: Unit test
+      meaning: 单元测试
+    - word: unit test coverage
+      meaning: 单元测试覆盖率
+    - word: unit-testing harnesses
+      meaning: 单元测试用例
+    - word: unmanaged code
+      meaning: 非托管代码
+    - word: Unmanaged Pointers
+      meaning: 非托管指针
+    - word: Unnecessary Abstract
+      meaning: 不必要的抽象
+      footnotes: [2]
+    - word: Unnecessary Hierarchy
+      meaning: 不必要的层次结构
+      footnotes: [2]
+    - word: unnecessary overhead
+      meaning: 不必要的开销
+    - word: Unutilized Abstraction
+      meaning: 未用的抽象
+      footnotes: [2]
+    - word: Usability Review
+      meaning: 可用性评估
+    - word: User Acceptance Test
+      meaning: 接受度测试（UAT）
+    - word: User Analysis
+      meaning: 用户分析
+    - word: User Datagram Protocol
+      meaning: 用户数据报协议（UDP）
+    - word: User Interface
+      meaning: 用户界面，包括视觉设计、交互设计和用户体验（UI）
+    - word: User Mode Stack
+      meaning: 用户模式栈
+  V:
+    - word: Value Object
+      meaning: 值对象
+    - word: variant
+      meaning: 变体
+    - word: Variation Encapsulation Principle
+      meaning: 变化封装原则（VEP）
+    - word: versionable interaction contract
+      meaning: 可以进行版本控制的交互契约
+    - word: Vertical Scale
+      meaning: 垂直缩放
+    - word: VES
+      meaning: 虚拟执行系统（Visual Execution System）
+    - word: viscosity
+      meaning: 粘滞性
+    - word: VIP
+      meaning: 虚拟 IP（或不译）
+    - word: VIP Swap
+      meaning: VIP 交换
+    - word: Virtual Execution System
+      meaning: 虚拟执行系统（VES）
+    - word: Virtual Network
+      meaning: 虚拟网络
+    - word: Virtual Machine
+      meaning: 虚拟机
+    - word: Virtual Private Network
+      meaning: 虚拟专用网络（VPN），在公用网络上建立专用网络，进行加密通讯，如网关通过对数据包的加密和数据包目标地址的转换实现远程访问。
+    - word: Virtual Reality
+      meaning: 虚拟现实（VR）
+    - word: viscosity
+      meaning: 粘稠性
+    - word: Visitor Pattern
+      meaning: 访问者模式
+    - word: VLO
+      meaning: 团体批量许可证；大量采购授权合约（Volume Licensing for Organizations）
+    - word: VOL
+      meaning: 团体批量许可证；大量采购授权合约（Volume Licensing for Organizations）
+    - word: Volume Licensing for Organizations
+      meaning: 团体批量许可证；大量采购授权合约（VOL 或 VLO）
+    - word: VPC
+      meaning: 虚拟私有云（Virtual Private Cloud）
+      footnotes: [4]
+    - word: VPN
+      meaning: 虚拟专用网络（Virtual Private Network）
+  W:
+    - word: WCF
+      meaning: Windows 通讯开发平台（Windows Comminication Foundation）
+    - word: Weak Generational Hypothesis
+      meaning: 弱分代假设
+    - word: Wearable Device
+      meaning: 可穿戴设备
+    - word: Web Role
+      meaning: 网站角色
+    - word: Web Scraping
+      meaning: 网络爬虫
+    - word: Web Service
+      meaning: 网络服务
+    - word: Web Service Definition Language
+      meaning: Web 服务定义语言（WSDL）
+    - word: Web Sites
+      meaning: 网站
+    - word: Weighted Method per Class
+      meaning: 类累计圈复杂度（WMC）
+    - word: WF
+      meaning: 工作流（WIndows Workflow）
+    - word: Wide Hierarchy
+      meaning: 过宽的层次结构
+      footnotes: [2]
+    - word: Windows Comminication Foundation
+      meaning: 分布式通信（WCF）
+    - word: Windows Internet Name Service
+      meaning: Windows Internet 命名服务（WINS）
+    - word: Windows Management Instrumentation
+      meaning: Windows 管理规范（WMI）
+    - word: Windows Presentation Foundation
+      meaning: 富客户端表示（WPF）
+    - word: Windows Workflow
+      meaning: 工作流（WF）
+    - word: WINS
+      meaning: Windows Internet 命名服务（Windows Internet Name Service）
+    - word: WINS Proxy
+      meaning: WINS 代理
+    - word: WINS Resource
+      meaning: WINS 资源
+    - word: wireless communication
+      meaning: 无线通讯
+    - word: WMI
+      meaning: Windows 管理规范（Windows Management Instrumentation）
+    - word: Worker Role
+      meaning: 辅助角色
+    - word: Workflow
+      meaning: 工作流
+    - word: workgroup
+      meaning: 工作组
+    - word: World Wide Web Consortium
+      meaning: 万维网联盟（W3C）
+    - word: WPF
+      meaning: 富客户端表示（Windows Presentation Foundation）
+    - word: writebehind
+      meaning: 后写式
+  X:
+    - word: X.509v3 certificate
+      meaning: X.509 证书
+    - word: XaaS
+      meaning: Everything as a Service，一切皆服务
+    - word: XML
+      meaning: 可扩展标记语言（Extensible Markup Language）
+    - word: XOR
+      meaning: 异或（Exclusive OR）
+    - word: XUL
+      meaning: XML 用户界面语言（XML User Interface Language）
+  Y:
+    - word: YAGNI
+      meaning: "原则，不需要原则（You Aren't Gonna Need It），“你不会用到它”"
+      footnotes: [3]
+  Z:
+    - word: Zero-downtime Upgrade
+      meaning: 零停机升级
+    - word: zip disk
+      meaning: 压缩磁盘
+    - word: zone
+      meaning: 区域
+    - word: zone list
+      meaning: 区域列表
+    - word: zone transfer
+      meaning: 区域传送
+
+footnotes:
+  1: 重构列表，摘自《重构》一书。
+  2: 坏味道列表，摘自《软件设计重构》一书。
+  3: 摘自《Microsoft.NET 企业级应用架构设计》一书。
+  4: 摘自《微服务设计》一书。
+  5: 摘自《领域驱动设计精粹》一书
+  6: 来自大语言模型 LLM 相关术语
